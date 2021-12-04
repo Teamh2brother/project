@@ -146,7 +146,7 @@ playMusic.addEventListener('click', () => {
   }
 })
 function closebotbtn1() {
-  document.querySelectorAll('.setout4').remove('godropclose')
+  document.querySelector('.setout').classList.add('godropclose')
   document.querySelector('.setout_text').classList.add('godropclosetext')
   setTimeout(function () {
     document.querySelector('.bot--1').classList.add('close__')
